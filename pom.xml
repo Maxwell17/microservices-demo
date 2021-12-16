@@ -22,6 +22,7 @@
         <module>registry</module>
         <module>config</module>
         <module>database</module>
+        <module>database-sync</module>
     </modules>
 
 </project>
