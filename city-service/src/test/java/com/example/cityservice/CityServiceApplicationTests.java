@@ -1,10 +1,10 @@
-package com.example.database;
+package com.example.cityservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DatabaseApplicationTests {
+class CityServiceApplicationTests {
 
     @Test
     void contextLoads() {

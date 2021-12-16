@@ -1,15 +1,17 @@
-package com.example.database;
+package com.example.cityservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @EnableEurekaClient
+@EnableFeignClients
 @SpringBootApplication
-public class DatabaseApplication {
+public class CityServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DatabaseApplication.class, args);
+        SpringApplication.run(CityServiceApplication.class, args);
     }
 
 }

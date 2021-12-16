@@ -1,7 +1,6 @@
 package com.example.databasesync.domain;
 
 import lombok.Data;
-import lombok.Value;
 
 import javax.persistence.*;
 import java.io.Serializable;
