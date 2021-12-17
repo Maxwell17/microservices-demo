@@ -7,11 +7,12 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class City {
+public class User {
 
     private Long id;
 
-    private String name;
+    private String username;
 
-    private Integer population;
+    private String password;
+
 }
