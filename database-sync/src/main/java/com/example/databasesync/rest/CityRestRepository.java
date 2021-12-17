@@ -4,6 +4,6 @@ import com.example.databasesync.domain.City;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
-@RepositoryRestResource
+@RepositoryRestResource(path = "cities", collectionResourceRel = "cities")
 public interface CityRestRepository extends PagingAndSortingRepository<City, Long> {
 }
