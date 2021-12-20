@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS roles;
+
+CREATE TABLE roles
+(
+    role_id SERIAL PRIMARY KEY,
+    role    VARCHAR(20) NOT NULL
+);

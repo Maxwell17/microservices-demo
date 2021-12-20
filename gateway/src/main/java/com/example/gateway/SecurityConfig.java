@@ -21,7 +21,7 @@ public class SecurityConfig {
 
     @Bean
     public SecurityWebFilterChain securityWebFilterChain(final ServerHttpSecurity http) {
-        return http.authorizeExchange().pathMatchers("/users/**","/cities/**").permitAll()
+        return http.authorizeExchange().pathMatchers("/users/**","/cities/**", "/auth/**").permitAll()
                 .anyExchange().authenticated()
                 .and().formLogin()
                 .and().csrf().disable()

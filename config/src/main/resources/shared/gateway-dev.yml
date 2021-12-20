@@ -1,5 +1,9 @@
 server:
   port: 8084
+jwt:
+  secret: secretkey
+  token:
+    validity: 180000
 spring:
   cloud:
     gateway:

@@ -2,7 +2,6 @@ package com.example.cityservice;
 
 import com.example.cityservice.domain.User;
 import lombok.AllArgsConstructor;
-import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

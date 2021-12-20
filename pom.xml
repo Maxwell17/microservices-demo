@@ -25,6 +25,10 @@
         <module>city-service</module>
         <module>gateway</module>
         <module>user-service</module>
+        <module>load-balancer</module>
+        <module>auth-service</module>
+        <module>user-domain</module>
+        <module>user-repository</module>
     </modules>
 
 </project>
