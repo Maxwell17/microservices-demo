@@ -19,3 +19,7 @@ spring:
           uri: lb://city-service
           predicates:
             - Path=/cities/**
+        - id: auth
+          uri: lb://auth-service
+          predicates:
+            - Path=/auth/**

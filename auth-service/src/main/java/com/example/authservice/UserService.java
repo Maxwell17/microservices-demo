@@ -16,10 +16,10 @@ import static org.springframework.util.MimeTypeUtils.APPLICATION_JSON_VALUE;
 public interface UserService {
 
     @GetMapping(produces = APPLICATION_JSON_VALUE)
-    Mono<?> getUsers();
+    Mono<User> getUsers();
 
     @PostMapping(consumes = APPLICATION_JSON_VALUE, produces = APPLICATION_JSON_VALUE)
-    Mono<?> createUser(@RequestBody User user);
+    Mono<User> createUser(@RequestBody User user);
 
     @Component
     class HystrixClientFallback implements FallbackFactory<ResponseEntity<String>> {
